@@ -1,0 +1,50 @@
+{
+    "name": "app-qr-code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kevin-kouame/app-qr-code.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kevin-kouame/app-qr-code/issues"
+    },
+    "homepage": "https://github.com/kevin-kouame/app-qr-code#readme",
+    "devDependencies": {
+        "@babel/preset-react": "^7.12.13",
+        "@symfony/stimulus-bridge": "^1.1.0",
+        "@symfony/webpack-encore": "^0.32.0",
+        "auto-changelog": "~2.2.1",
+        "core-js": "^3.0.0",
+        "react-scripts": "^4.0.1",
+        "regenerator-runtime": "^0.13.2",
+        "stimulus": "^2.0.0",
+        "webpack-notifier": "^1.13.0"
+    },
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server --port 8080",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "core-js": "^3.8.1",
+        "js-cookie": "^2.2.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-app-polyfill": "^2.0.0",
+        "react-content-loader": "^6.0.1",
+        "react-dom": "^17.0.1",
+        "react-router-dom": "^5.2.0",
+        "react-toastify": "^7.0.3"
+    }
+}
