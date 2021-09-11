@@ -1,0 +1,55 @@
+@import './../../variables';
+
+
+.container{
+   margin-top: 40px;
+   max-width: 800px;
+}
+
+.cats-header{
+    border: 0px;
+}
+
+.cats-content{
+  max-height: 200px;
+  padding-left: 40px;  
+  padding-top: 20px;
+}
+
+.cats-content .row{
+margin-bottom: 35px;
+  
+}
+.cats-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.cats .icon{
+   font-size: 40px;
+   color: $greyDark;
+   transition: $smooth;
+
+
+}
+
+.cats .icon:hover{
+    font-size: 50px;
+    transition: $smooth;
+}
+
+.cats-sub-cats{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cats-sub-cats-header{
+    border: none;
+}
+.cats-sub-cats-content{
+    padding: 50px;
+}

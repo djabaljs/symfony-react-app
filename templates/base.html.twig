@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{asset("plugins/fontawesome-free/css/all.min.css")}}" rel="stylesheet">
+        <link href="{{asset("dist/css/bootstrap.min.css")}}" rel="stylesheet">
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
         {% block stylesheets %}
@@ -12,8 +16,16 @@
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
+        <style>
+          body{
+              font-size: 11px;
+              font-family: 'Poppins', 'sans-serif'
+              box-sizing: border-box;
+          }
+        </style>
     </head>
     <body>
         {% block body %}{% endblock %}
+       <script src="{{asset("dist/js/bootstrap.bundle.js")}}"></script>
     </body>
 </html>
