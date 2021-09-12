@@ -3,3 +3,12 @@
 #    controller: App\Controller\DefaultController::index
 api_login_check:
     path: /api/login_check
+
+
+annonces_details:
+   path: /annonces/details
+   controller: App\Controller\AppController::index
+
+annonces:
+   path: /annonces
+   controller: App\Controller\AppController::index

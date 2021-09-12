@@ -3,10 +3,16 @@
 {% block title "My React App" %}
 {% block stylesheets %}
    {{encore_entry_link_tags('app')}}
+   <style>
+      body{
+         background-color: rgb(229,228,226);
+      }
+   </style>
 {% endblock %}
 {% block body %}
     <div id="root"></div>
 {% endblock %}
 {% block javascripts %}
    {{encore_entry_script_tags('app')}}
+   
 {% endblock %}

@@ -5,4 +5,21 @@
     background-color: $greyLight;
     height: 200px;
     padding-top: 10px;
+
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding:0;
+}
+
+.footer .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    font-size: 12px;
 }

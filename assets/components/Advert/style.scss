@@ -1,0 +1,42 @@
+@import './../../variables';
+
+
+.advert{
+    padding: 10px;
+}
+.advert-img img{
+    width: 100%;
+    height: 150px;
+}
+
+.advert-content .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advert-content{
+    font-family: sans-serif;
+}
+
+.advert-content .title{
+   color: blue;
+}
+
+.advert-content .price{
+    color: red;
+}
+
+.advert-content .second .details{
+  margin-bottom: -50px;
+}
+
+.advert-content .third{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.advert .border-bottom{
+    padding-bottom: 10px;
+}

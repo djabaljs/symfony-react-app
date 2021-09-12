@@ -1,0 +1,73 @@
+@import "./../../variables";
+
+.adverts {
+  margin-bottom: 30px;
+}
+
+.topAdverts{
+  background-color: white;
+}
+
+.adverts .search form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adverts .search input {
+  max-width: 230px;
+  border: 1px solid $greyDark;
+}
+
+.adverts .search .btn-dark {
+  background-color: $greyDark;
+}
+
+.adverts .topAdverts {
+  margin-top: 20px;
+}
+.adverts .topAdverts marquee {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.adverts .content{
+    margin-top: 20px;
+}
+.adverts .left{
+    background-color: white;
+    height: 500px;
+}
+.adverts .left .title {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px
+}
+
+.adverts .right{
+    background-color: white;
+}
+
+
+.adverts .first .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+}
+.adverts .first input{
+    max-width: 110px;
+}
+
+.adverts .btn-dark{
+    margin: 5px;
+    max-width: 238px;
+    background-color: $greyDark;
+}
+
+.adverts .second .periodes{
+    padding: 5px;
+}
+
